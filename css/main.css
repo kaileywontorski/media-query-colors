@@ -21,7 +21,7 @@ html, body {
 header {
   height: 300px;
   width: 100%;
-  background: #1F252A;
+  background: #DEC3AF;
 }
 
 
@@ -34,15 +34,15 @@ header {
 }
 
 #column-1 {
-  background: #405365;
+  background: #EEE3D9;
 }
 
 #column-2 {
-  background: #BAB5A4;
+  background: #9F756A;
 }
 
 #column-3 {
-  background: #975C33;
+  background: #70323E;
 }
 
 
@@ -51,7 +51,7 @@ header {
 footer {
   width: 100%;
   height: 30px;
-  background: #1F252A;
+  background: #DEC3AF;
 }
 
 
@@ -60,23 +60,28 @@ footer {
 
 @media (min-width: 768px) {
   header {
-    background-color: #405365;
+    background-color: #EEE3D9;
   }
 
   #column-1 {
-    background-color: #975C33;
+    background-color: #70323E;
   }
 
   #column-2 {
-    background-color: #6E665E;
+    background-color: #DEC3AF;
   }
 
   #column-3 {
-    background-color: #1F252A;
+    background-color: #9F756A;
+    width: 100%;
   }
 
   footer {
-    background-color: #405365;
+    background-color: #EEE3D9;
+  }
+
+  .col-3 {
+    width: 50%;
   }
 
 }
@@ -84,23 +89,28 @@ footer {
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
   header {
-    background-color: #975C33;
+    background-color: #EEE3D9;
   }
 
   #column-1 {
-    background-color: #6E665E;
+    background-color: #9F756A;
   }
 
   #column-2 {
-    background-color: #405365;
+    background-color: #70323E;
   }
 
   #column-3 {
-    background-color: #BAB5A4;
+    background-color: #DEC3AF;
+    width: 33.3%;
   }
 
   footer {
-    background-color: #975C33;
+    background-color: #EEE3D9;
+  }
+
+  .col-3 {
+    width: 33.3%;
   }
 
 }
